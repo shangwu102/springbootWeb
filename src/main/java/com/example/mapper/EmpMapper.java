@@ -2,7 +2,6 @@ package com.example.mapper;
 
 import com.example.pojo.Dept;
 import com.example.pojo.Emp;
-import com.example.pojo.PageBean;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 
