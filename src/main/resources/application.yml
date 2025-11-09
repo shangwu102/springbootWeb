@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: demo2
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://localhost:3306/my_tli
+    password: 030913
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+logging:
+  level:
+    org.springframework.transaction: debug
+    org.springframework.jdbc.datasource.DataSourceTransactionManager: debug
